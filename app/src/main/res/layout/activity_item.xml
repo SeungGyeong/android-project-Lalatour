@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/reserve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="reservation"
+            android:paddingTop="30sp">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:src="@drawable/reservation"
+                android:padding="2sp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="thingstodo"
+            android:id="@+id/todo">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:src="@drawable/things"
+                android:padding="2sp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="transportation"
+        android:id="@+id/transportation">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:src="@drawable/transportation"
+                android:padding="2sp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="accomodation"
+        android:id="@+id/accomodation">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:src="@drawable/accomodation"
+                android:padding="2sp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="food"
+        android:id="@+id/food">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:src="@drawable/food"
+                android:padding="2sp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true" />
+    </LinearLayout>
+</LinearLayout>

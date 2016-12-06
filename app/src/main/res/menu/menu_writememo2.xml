@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_highlight"
+        android:title="하이라이트"
+        android:icon="@drawable/highlight"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_pen"
+        android:title="그리기"
+            android:icon="@drawable/pen"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_undo"
+        android:title="취소"
+        android:icon="@drawable/undo"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_pre"
+        android:title="이전으로"
+        android:icon="@drawable/pre"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_add"
+        android:title="등록"
+        android:icon="@drawable/check"
+        app:showAsAction="always" />
+
+
+</menu>
